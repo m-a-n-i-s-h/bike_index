@@ -98,7 +98,7 @@ jobs:
     docker:
       - image: circleci/ruby:2.5.1-stretch-node
     environment:
-      CC_TEST_REPORTER_ID: c3ff91e23ea0fea718bb62dae0a8a5440dc082d5d2bb508af6b33d0babac479a
+      CC_TEST_REPORTER_ID: 272f3f8a1ce56012378d71f22f52b1f34fe1499debe7943fe1cd0398bf808aa7
     working_directory: ~/bikeindex/bike_index
 
     steps:
